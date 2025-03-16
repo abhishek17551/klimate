@@ -1,4 +1,5 @@
 import './App.css'
+import { Button } from './components/ui/button'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-
+       <Button variant='destructive'>Om Tum Gajananaya Namah</Button>
       </div>
     </>
   )
