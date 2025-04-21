@@ -6,7 +6,7 @@ import WeatherDetails from "@/components/WeatherDetails"
 import WeatherForecast from "@/components/WeatherForecast"
 import WeatherSkeleton from "@/components/WeatherSkeleton"
 import { useGeolocation } from "@/hooks/use-geolocation"
-import { useForecastQuery, useReverseGeocodeQuery, useWeatherQuery } from "@/hooks/use-weather"
+import { useForecastQuery, useLocationSearch, useReverseGeocodeQuery, useWeatherQuery } from "@/hooks/use-weather"
 import { AlertTriangle, MapPin, RefreshCw } from "lucide-react"
 
 
